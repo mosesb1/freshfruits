@@ -30,7 +30,7 @@ app.use(methodOverride('_method'));
 app.use(express.static('public'));
 
 app.get('/', (req,res) => {
-    res.send('your server is running');
+    res.send('your server is running like crazy');
 })
 
 // index
